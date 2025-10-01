@@ -9781,7 +9781,7 @@ var Xo = class {
   http;
   prefix;
   suffix;
-  constructor(t, n = "./assets/i18n/", r = ".json") {
+  constructor(t, n = "/portfolioEve/assets/i18n/", r = ".json") {
     (this.http = t), (this.prefix = n), (this.suffix = r);
   }
   getTranslation(t) {
@@ -9789,7 +9789,7 @@ var Xo = class {
   }
 };
 function DD(e) {
-  return new Xo(e, "/assets/i18n/", ".json");
+  return new Xo(e, "/portfolioEve/assets/i18n/", ".json");
 }
 function CD(e) {
   return () => {
