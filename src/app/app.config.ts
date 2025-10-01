@@ -2,8 +2,7 @@ import {
   ApplicationConfig,
   importProvidersFrom,
   provideZoneChangeDetection,
-  provideAppInitializer,
-  inject,
+  APP_INITIALIZER,
 } from '@angular/core';
 import { provideHttpClient, HttpClient } from '@angular/common/http';
 import {
@@ -13,16 +12,17 @@ import {
 } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
+// Loader para ngx-translate
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
 }
 
-function initTranslate() {
+// Inicializador de traducción
+export function initTranslateFactory(translate: TranslateService) {
   return () => {
-    const ts = inject(TranslateService);
     const lang = localStorage.getItem('lang') ?? 'en';
-    ts.setDefaultLang('en');
-    ts.use(lang);
+    translate.setDefaultLang('en');
+    return translate.use(lang);
   };
 }
 
@@ -40,6 +40,11 @@ export const appConfig: ApplicationConfig = {
         },
       })
     ),
-    provideAppInitializer(initTranslate()),
+    {
+      provide: APP_INITIALIZER,
+      useFactory: initTranslateFactory,
+      deps: [TranslateService],
+      multi: true,
+    },
   ],
 };
