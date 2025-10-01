@@ -1,0 +1,33 @@
+<div class="w-full h-full bg-surface flex flex-col items-center">
+  <h1
+    class="font-fraunces font-medium text-h1-sm md:text-h1-md lg:text-h1-lg text-primary mt-8 md:mt-2"
+  >
+    {{ "projects" | translate }}
+  </h1>
+
+  <div
+    class="grid grid-cols-[repeat(auto-fit,_minmax(275px,_1fr))] container w-full h-3/5 overflow-auto gap-2 p-2"
+  >
+    @for (card of cards; track card.title) {
+    <app-card
+      [title]="card.title"
+      [image]="card.image"
+      [link]="card.link"
+    ></app-card>
+    }
+  </div>
+  <div
+    class="text-secondary flex flex-row justify-center items-center gap-7 w-full absolute bottom-6 lg:bottom-8"
+  >
+    <img
+      src="assets/icons/arrow-down.svg"
+      class="size-8 md:size-9 lg:size-11 cursor-pointer"
+      (click)="goNextSection('contact', $event)"
+    />
+    <img
+      src="assets/icons/arrow-up.svg"
+      class="size-8 md:size-9 lg:size-11 cursor-pointer"
+      (click)="goNextSection('about', $event)"
+    />
+  </div>
+</div>

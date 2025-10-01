@@ -1,0 +1,52 @@
+<div
+  class="text-acent flex flex-col items-start ml-3 z-50 fixed top-6 md:top-8 lg:top-10"
+>
+  <img
+    src="assets/icons/menuSmp.svg"
+    class="size-8 md:size-9 lg:size-11 cursor-pointer"
+    (click)="toggleMenu()"
+  />
+</div>
+
+@if(visibleMenu){
+<div class="fixed h-96 w-48 z-40 py-16 px-3 flex flex-col bg-surface">
+  <nav class="flex flex-col gap-4 text-acent lg:text-2xl cursor-pointer">
+    <a
+      href="#home"
+      class="hover:text-primary"
+      (click)="goToSection('home', $event)"
+      >{{ "home" | translate }}</a
+    >
+    <a
+      href="#about"
+      class="hover:text-primary"
+      (click)="goToSection('about', $event)"
+      >{{ "about" | translate }}</a
+    >
+    <a
+      href="#projects"
+      class="hover:text-primary"
+      (click)="goToSection('projects', $event)"
+      >{{ "projects" | translate }}</a
+    >
+    <a
+      href="#contact"
+      class="hover:text-primary"
+      (click)="goToSection('contact', $event)"
+      >{{ "contact" | translate }}</a
+    >
+    <div class="flex flex-row gap-1">
+      <a class="hover:text-primary" (click)="setLanguage('en')">EN</a>
+      <a class="hover:text-primary" (click)="setLanguage('es')">ES</a>
+    </div>
+    <div class="flex flex-row gap-2">
+      <a href="https://github.com/egilp04?tab=repositories" target="_blank"
+        ><img src="assets/img/github.svg" class="size-6"
+      /></a>
+      <a href="https://www.linkedin.com/in/evelia-gil-paredes/" target="_blank"
+        ><img src="assets/img/linkedin.svg" class="size-6"
+      /></a>
+    </div>
+  </nav>
+</div>
+}

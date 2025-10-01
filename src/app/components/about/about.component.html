@@ -1,0 +1,34 @@
+<div
+  class="w-full h-full bg-surface text-center flex flex-col relative items-center lg:gap-8 gap-2"
+>
+  <h1
+    class="font-fraunces font-medium text-h1-sm md:text-h1-md lg:text-h1-lg text-primary mt-6 md:mt-2 lg:mt-2"
+  >
+    {{ "about" | translate }}
+  </h1>
+  <p
+    class="font-sans text-p-sm sm:text-p-sm md:text-p-md lg:text-p-lg text-primary px-10"
+  >
+    {{ "text" | translate }}
+  </p>
+  <h1
+    class="font-fraunces font-medium text-h2-sm md:text-h2-md lg:text-h2-lg text-primary sm:mt-2 md:mt-2"
+  >
+    {{ "technologies" | translate }}
+  </h1>
+  <app-carrousel class="overflow-hidden w-full"></app-carrousel>
+  <div
+    class="text-secondary flex flex-row justify-center items-center gap-7 w-full absolute bottom-6"
+  >
+    <img
+      src="assets/icons/arrow-down.svg"
+      class="size-8 md:size-9 lg:size-11 cursor-pointer"
+      (click)="goNextSection('projects', $event)"
+    />
+    <img
+      src="assets/icons/arrow-up.svg"
+      class="size-8 md:size-9 lg:size-11 cursor-pointer"
+      (click)="goNextSection('home', $event)"
+    />
+  </div>
+</div>
