@@ -1,0 +1,22 @@
+[
+  {
+    "name": "java",
+    "link": "assets/img/technologies/java.png"
+  },
+  {
+    "name": "tailwind",
+    "link": "assets/img/technologies/tailwind.png"
+  },
+  {
+    "name": "javaScript",
+    "link": "assets/img/technologies/js.png"
+  },
+  {
+    "name": "angular",
+    "link": "assets/img/technologies/angular.png"
+  },
+  {
+    "name": "python",
+    "link": "assets/img/technologies/py.png"
+  }
+]
