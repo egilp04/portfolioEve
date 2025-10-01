@@ -47,7 +47,7 @@ export class FormularComponent {
             alert('Mensaje enviado correctamente 📩');
             this.contactForm.reset();
           },
-          (error) => {
+          (error: any) => {
             console.error('FAILED...', error);
             alert('Error al enviar el mensaje, intenta de nuevo más tarde.');
           }
