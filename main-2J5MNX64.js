@@ -12409,7 +12409,7 @@ var wi = class e {
         3,
         "src",
       ],
-      [1, "absolute", "inset-0", "bg-black", "opacity-30"],
+      [1, "absolute", "inset-0", "bg-black", "opacity-60"],
       [
         1,
         "font-sans",
