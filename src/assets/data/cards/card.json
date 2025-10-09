@@ -2,11 +2,13 @@
   {
     "title": "Figma Tarea",
     "image": "assets/img/projects/projectFigma.webp",
-    "link": "https://www.figma.com/design/noRXbdm6jtmAm7e83a6XBF/fonsaex?node-id=0-1&t=WcnixNbnUSaQVX0D-1"
+    "linkCode": "https://www.figma.com/design/noRXbdm6jtmAm7e83a6XBF/fonsaex?node-id=0-1&t=WcnixNbnUSaQVX0D-1",
+    "linkLive": ""
   },
   {
     "title": "Cronómetro",
     "image": "assets/img/projects/cronometro.webp",
-    "link": "https://egilp04.github.io/cronometro_cliente/"
+    "linkCode": "https://egilp04.github.io/cronometro_cliente/",
+    "linkLive": "https://egilp04.github.io/cronometro_cliente/"
   }
 ]

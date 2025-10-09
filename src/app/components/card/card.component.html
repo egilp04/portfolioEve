@@ -12,5 +12,8 @@
   >
     {{ title }}
   </h3>
-  <app-button (click)="goToProject(link)" class="z-20"></app-button>
+  @if(linkCode !=""){
+  <app-button (click)="goToProject(linkCode)" class="z-20">Code</app-button>
+  }
+  <app-button (click)="goToProject(linkLive)" class="z-20">Live</app-button>
 </div>
