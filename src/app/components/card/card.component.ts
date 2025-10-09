@@ -11,8 +11,8 @@ import { ButtonComponent } from '../button/button.component';
 export class CardComponent {
   @Input() title!: string;
   @Input() image!: string;
-  @Input() link!: string;
-
+  @Input() linkCode!: string;
+  @Input() linkLive!: string;
   goToProject(url: string) {
     window.location.href = url;
   }
