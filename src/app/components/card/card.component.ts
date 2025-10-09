@@ -4,7 +4,7 @@ import { ButtonComponent } from '../button/button.component';
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [ButtonComponent],
+  imports: [],
   templateUrl: './card.component.html',
   styleUrl: './card.component.css',
 })
