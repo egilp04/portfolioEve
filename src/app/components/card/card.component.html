@@ -19,11 +19,10 @@
       class="size-10 cursor-pointer"
       (click)="goToProject(linkLive)"
     />
-    }
-    @if (linkCode && linkCode.trim() !== '') {
+    } @if (linkCode && linkCode.trim() !== '') {
     <img
       src="assets/img/github.webp"
-      class="size-10 cursor-pointer"
+      class="size-10 cursor-pointer invert"
       (click)="goToProject(linkCode)"
     />
     }
