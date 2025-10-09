@@ -13,7 +13,7 @@
     {{ title }}
   </h3>
   <div class="z-20 flex flex-row gap-1">
-    @if(linkCode !=" "){
+    @if(linkCode && linkCode.trim() !== ''){
     <app-button (click)="goToProject(linkCode)"
       ><img src="assets/img/github.svg" class="size-6"
     /></app-button>
