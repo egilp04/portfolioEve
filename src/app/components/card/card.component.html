@@ -13,16 +13,18 @@
     {{ title }}
   </h3>
   <div class="z-20 flex flex-row gap-1">
-    @if(linkCode && linkCode.trim() !== ''){
+    @if (linkCode && linkCode.trim() !== '') {
     <img
       src="assets/img/github.svg"
       class="size-10 cursor-pointer"
       (click)="goToProject(linkCode)"
-    />}
+    />
+    } @if (linkLive && linkLive.trim() !== '') {
     <img
       src="assets/img/play.webp"
       class="size-10 cursor-pointer"
       (click)="goToProject(linkLive)"
     />
+    }
   </div>
 </div>
