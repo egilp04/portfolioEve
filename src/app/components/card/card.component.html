@@ -13,7 +13,11 @@
     {{ title }}
   </h3>
   @if(linkCode !=""){
-  <app-button (click)="goToProject(linkCode)" class="z-20">Code</app-button>
+  <app-button (click)="goToProject(linkCode)" class="z-20"
+    ><img src="assets/img/github.svg" class="size-6"
+  /></app-button>
   }
-  <app-button (click)="goToProject(linkLive)" class="z-20">Live</app-button>
+  <app-button (click)="goToProject(linkLive)" class="z-20"
+    ><img src="assets/img/play.webp" class="size-6"
+  /></app-button>
 </div>
