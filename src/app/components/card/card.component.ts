@@ -13,6 +13,7 @@ export class CardComponent {
   @Input() image!: string;
   @Input() linkCode!: string;
   @Input() linkLive!: string;
+
   goToProject(url: string) {
     window.location.href = url;
   }
