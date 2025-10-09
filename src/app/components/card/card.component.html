@@ -5,7 +5,7 @@
     [src]="image"
     class="absolute w-full h-full top-0 left-0 z-0 object-cover"
   />
-  <div class="absolute inset-0 bg-black opacity-60"></div>
+  <div class="absolute inset-0 bg-black opacity-70"></div>
 
   <h3
     class="font-sans font-bold text-surface text-xl text-shadow-sm text-shadow-acent/80 sm:text-h3-sm md:text-h3-md lg:text-h3-lg z-20"
@@ -13,13 +13,18 @@
     {{ title }}
   </h3>
   <div class="z-20 flex flex-row gap-1">
-    @if(linkCode !=""){
-    <app-button (click)="goToProject(linkCode)"
-      ><img src="assets/img/github.svg" class="size-6"
-    /></app-button>
+    @if (linkCode && linkCode.trim() !== '') {
+    <img
+      src="assets/img/github.webp"
+      class="size-10 cursor-pointer"
+      (click)="goToProject(linkCode)"
+    />
+    } @if (linkLive && linkLive.trim() !== '') {
+    <img
+      src="assets/img/play.webp"
+      class="size-10 cursor-pointer"
+      (click)="goToProject(linkLive)"
+    />
     }
-    <app-button (click)="goToProject(linkLive)" class="z-20"
-      ><img src="assets/img/play.webp" class="size-6"
-    /></app-button>
   </div>
 </div>
