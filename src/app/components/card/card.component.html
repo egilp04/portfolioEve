@@ -1,5 +1,5 @@
 <div
-  class="h-72 md:h-64 lg:h-80 bg-surface text-center flex flex-col items-center justify-between shadow-md shadow-secondary p-1 relative"
+  class="h-72 md:h-64 lg:h-80 bg-surface text-center flex flex-col items-center justify-between shadow-lg shadow-secondary p-1 relative hover:border-4 hover:border-acent"
 >
   <img
     [src]="image"
@@ -8,21 +8,21 @@
   <div class="absolute inset-0 bg-black opacity-70"></div>
 
   <h3
-    class="font-sans font-bold text-surface text-xl text-shadow-sm text-shadow-acent/80 sm:text-h3-sm md:text-h3-md lg:text-h3-lg z-20"
+    class="font-sans font-bold text-xl text-shadow-sm text-shadow-acent/80 sm:text-h3-sm md:text-h3-md lg:text-h3-lg z-20 mt-3 text-surface"
   >
     {{ title }}
   </h3>
-  <div class="z-20 flex flex-row gap-1">
+  <div class="z-20 flex flex-row gap-6">
     @if (linkLive && linkLive.trim() !== '') {
     <img
       src="assets/img/play.webp"
-      class="size-10 cursor-pointer"
+      class="size-10 cursor-pointer hover:size-12"
       (click)="goToProject(linkLive)"
     />
     } @if (linkCode && linkCode.trim() !== '') {
     <img
       src="assets/img/github.webp"
-      class="size-10 cursor-pointer invert"
+      class="size-10 cursor-pointer invert hover:size-12"
       (click)="goToProject(linkCode)"
     />
     }

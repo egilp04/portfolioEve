@@ -61,7 +61,7 @@ module.exports = {
         },
       },
       animation: {
-        "infinite-scroll": "infinite-scroll 25s linear infinite",
+        "infinite-scroll": "infinite-scroll 30s linear infinite",
       },
     },
   },
