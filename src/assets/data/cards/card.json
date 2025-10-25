@@ -10,5 +10,11 @@
     "image": "assets/img/projects/cronometro.webp",
     "linkCode": "https://github.com/egilp04/cronometro_cliente.git",
     "linkLive": "https://egilp04.github.io/cronometro_cliente/"
+  },
+  {
+    "title": "Prototipo CSS",
+    "image": "assets/img/projects/fonsaex.webp",
+    "linkCode": "https://github.com/egilp04/fonsaex.git",
+    "linkLive": "https://egilp04.github.io/fonsaex/"
   }
 ]
