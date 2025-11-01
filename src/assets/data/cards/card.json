@@ -16,5 +16,11 @@
     "image": "assets/img/projects/fonsaex.webp",
     "linkCode": "https://github.com/egilp04/fonsaex.git",
     "linkLive": "https://egilp04.github.io/fonsaex/"
+  },
+  {
+    "title": "Kanban",
+    "image": "assets/img/projects/kanban.webp",
+    "linkCode": "https://github.com/egilp04/kanban_disenio_2dawB.git",
+    "linkLive": "  https://egilp04.github.io/kanban_disenio_2dawB/"
   }
 ]
