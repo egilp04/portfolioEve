@@ -22,5 +22,11 @@
     "image": "assets/img/projects/kanban.webp",
     "linkCode": "https://github.com/egilp04/kanban_disenio_2dawB.git",
     "linkLive": "  https://egilp04.github.io/kanban_disenio_2dawB/"
+  },
+  {
+    "title": "Taller Crafteo",
+    "image": "assets/img/projects/tallerCrafteo.webp",
+    "linkCode": "https://github.com/egilp04/Taller_Maincraft.git",
+    "linkLive": "  https://egilp04.github.io/Taller_Maincraft/"
   }
 ]
