@@ -27,6 +27,12 @@
     "title": "Taller Crafteo",
     "image": "assets/img/projects/tallerCrafteo.webp",
     "linkCode": "https://github.com/egilp04/Taller_Maincraft.git",
-    "linkLive": "  https://egilp04.github.io/Taller_Maincraft/"
+    "linkLive": "https://egilp04.github.io/Taller_Maincraft/"
+  },
+  {
+    "title": "Animaciones Gsap",
+    "image": "assets/img/projects/gsap.webp",
+    "linkCode": "https://github.com/egilp04/Evelia_Gil_Paredes_Gsap.git",
+    "linkLive": "https://egilp04.github.io/Evelia_Gil_Paredes_Gsap/"
   }
 ]
