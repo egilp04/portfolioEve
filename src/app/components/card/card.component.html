@@ -25,6 +25,12 @@
       class="size-10 cursor-pointer invert hover:size-12"
       (click)="goToProject(linkCode)"
     />
+    } @if (linkDoc && linkDoc.trim() !== '') {
+    <img
+      src="assets/img/doc.webp"
+      class="size-10 cursor-pointer invert hover:size-12"
+      (click)="goToProject(linkDoc)"
+    />
     }
   </div>
 </div>

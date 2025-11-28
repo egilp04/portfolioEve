@@ -3,36 +3,49 @@
     "title": "Figma Tarea",
     "image": "assets/img/projects/projectFigma.webp",
     "linkCode": "",
-    "linkLive": "https://www.figma.com/design/noRXbdm6jtmAm7e83a6XBF/fonsaex?node-id=0-1&t=WcnixNbnUSaQVX0D-1"
+    "linkLive": "https://www.figma.com/design/noRXbdm6jtmAm7e83a6XBF/fonsaex?node-id=0-1&t=WcnixNbnUSaQVX0D-1",
+    "linkDoc": ""
   },
   {
     "title": "Cronómetro",
     "image": "assets/img/projects/cronometro.webp",
     "linkCode": "https://github.com/egilp04/cronometro_cliente.git",
-    "linkLive": "https://egilp04.github.io/cronometro_cliente/"
+    "linkLive": "https://egilp04.github.io/cronometro_cliente/",
+    "linkDoc": ""
   },
   {
     "title": "Prototipo CSS",
     "image": "assets/img/projects/fonsaex.webp",
     "linkCode": "https://github.com/egilp04/fonsaex.git",
-    "linkLive": "https://egilp04.github.io/fonsaex/"
+    "linkLive": "https://egilp04.github.io/fonsaex/",
+    "linkDoc": ""
   },
   {
     "title": "Kanban",
     "image": "assets/img/projects/kanban.webp",
     "linkCode": "https://github.com/egilp04/kanban_disenio_2dawB.git",
-    "linkLive": "  https://egilp04.github.io/kanban_disenio_2dawB/"
+    "linkLive": "  https://egilp04.github.io/kanban_disenio_2dawB/",
+    "linkDoc": ""
   },
   {
     "title": "Taller Crafteo",
     "image": "assets/img/projects/tallerCrafteo.webp",
     "linkCode": "https://github.com/egilp04/Taller_Maincraft.git",
-    "linkLive": "https://egilp04.github.io/Taller_Maincraft/"
+    "linkLive": "https://egilp04.github.io/Taller_Maincraft/",
+    "linkDoc": ""
   },
   {
     "title": "Animaciones Gsap",
     "image": "assets/img/projects/gsap.webp",
     "linkCode": "https://github.com/egilp04/Evelia_Gil_Paredes_Gsap.git",
-    "linkLive": "https://egilp04.github.io/Evelia_Gil_Paredes_Gsap/"
+    "linkLive": "https://egilp04.github.io/Evelia_Gil_Paredes_Gsap/",
+    "linkDoc": ""
+  },
+  {
+    "title": "Juego: Aventura JS",
+    "image": "assets/img/projects/aventura_JS.webp",
+    "linkCode": "https://github.com/egilp04/juego_cliente_RPG.git",
+    "linkLive": "https://egilp04.github.io/juego_cliente_RPG/",
+    "linkDoc": "https://github.com/egilp04/juego_cliente_RPG/tree/main/src/out"
   }
 ]
