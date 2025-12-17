@@ -3,4 +3,5 @@ export interface Card {
   image: string;
   linkCode: string;
   linkLive: string;
+  linkDoc: string;
 }
